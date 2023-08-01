@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@200&display=swap");
+
+body {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-family: "Public Sans", sans-serif;
+}
+
+.green {
+  height: 180px;
+  width: 180px;
+  background-color: rgb(22, 216, 216);
+  border-radius: 40px;
+  margin: 10px 10px;
+  border: 5px solid black;
+}
+.yellow {
+  height: 180px;
+  width: 180px;
+  background-color: rgb(216, 168, 36);
+  border-radius: 40px;
+  margin: 10px 10px;
+  border: 5px solid black;
+}
+.blue {
+  height: 180px;
+  width: 180px;
+  background-color: rgb(24, 127, 245);
+  border-radius: 40px;
+  margin: 10px 10px;
+  border: 5px solid black;
+}
+.red {
+  height: 180px;
+  width: 180px;
+  background-color: rgb(212, 35, 118);
+  border-radius: 40px;
+  margin: 10px 10px;
+  border: 5px solid black;
+}
+.container {
+  display: flex;
+
+  padding-left: 465px;
+}
+
+h2 {
+  text-align: center;
+}
+h1 {
+  text-align: center;
+  font-family: "Bungee Spice", cursive;
+  font-size: 4rem;
+  margin-bottom: 0;
+  margin-top: 0px;
+  background-color: rgb(17, 17, 235);
+}
+.gameflash {
+  background-color: white;
+}
+.userflash{
+  background-color: rgb(8, 77, 8);
+}
+@media (max-width:500px){
+  h1{
+    width: 214vw;
+    font-size: 7rem;
+  }
+  body{
+    margin: 0px;
+    padding: 0px;
+  }
+  h2{
+    font-size: 1.9rem;
+    text-align: center;
+    position: relative;
+    left: 235px;
+  }
+  .container{
+    padding: 30px 155px;
+  }
+  .green {
+    height: 250px;
+    width: 250px;
+    /* background-color: rgb(22, 216, 216);
+    border-radius: 40px;
+    margin: 10px 10px;
+    border: 5px solid black; */
+  }
+  .yellow {
+    height: 250px;
+    width: 250px;
+    /* background-color: rgb(216, 168, 36);
+    border-radius: 40px;
+    margin: 10px 10px;
+    border: 5px solid black; */
+  }
+  .blue {
+    height: 250px;
+    width: 250px;
+    /* background-color: rgb(24, 127, 245);
+    border-radius: 40px;
+    margin: 10px 10px;
+    border: 5px solid black; */
+  }
+  .red {
+    height: 250px;
+    width: 250px;
+    /* background-color: rgb(212, 35, 118);
+    border-radius: 40px;
+    margin: 10px 10px;
+    border: 5px solid black; */
+  }
+  }
+  
